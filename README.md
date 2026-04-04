@@ -28,6 +28,8 @@ Projeto de estudo desenvolvido para entender na prática como conectar **fronten
 - Conexão real entre frontend e backend via `fetch()` e API REST
 - Integração do backend com banco de dados MySQL
 - Recebimento e validação de dados de login no servidor
+- Validação de dados no navegador utilizando regex e Javascript (email e senha)
+- Criptografia da senha via Bcrypt
 - Resposta do backend para o frontend com status da autenticação
 - Fluxo completo: usuário preenche o formulário → frontend envia para a API → API consulta o banco → responde com sucesso ou erro
 

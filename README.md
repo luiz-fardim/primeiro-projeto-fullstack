@@ -138,7 +138,6 @@ Frontend exibe o resultado na tela
 
 ## 🛠️ Melhorias futuras
 
-- [ ] Hash de senha com **bcrypt**
 - [ ] Autenticação com **JWT**
 - [ ] Tela de cadastro de usuários
 - [ ] Validação dos campos com **Zod**

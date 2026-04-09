@@ -1,9 +1,8 @@
 const form = document.getElementById('formCadastro');
 
 form.addEventListener('submit', async (event) => {
-    event.preventDefault(); // Impede a página de recarregar
+    event.preventDefault(); 
 
-    // Pega os dados do formulário de forma simples
     const formData = new FormData(form);
     const dados = Object.fromEntries(formData);
 
@@ -13,7 +12,7 @@ form.addEventListener('submit', async (event) => {
             headers: {
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify(dados) // Transforma o objeto em texto JSON
+            body: JSON.stringify(dados) 
         });
 
         const resultado = await resposta.json();
